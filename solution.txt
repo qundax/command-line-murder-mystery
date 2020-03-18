@@ -1,0 +1,29 @@
+1. The commands you used to get the solution (hint: run history for a list of the commands you ran).
+
+$ grep "CLUE" crimescene >> clues.txt
+$ grep "Annabel" people >> clues.txt
+$ grep -i "interview" streets/Hart_Place >> clues.txt
+$ cat interviews/interview-47246024 >> clues.txt
+$ grep -i "interview" streets/Buckingham_Place >> clues.txt
+$ cat interviews/interview-699607 >> clues.txt
+$ grep -A 5 "L337" vehicles | grep -A 4 "Honda" | grep -A 3 "Blue" | grep -C 1 "6'" >> clues.txt
+$ grep "Erika Owens" people >> clues.txt
+$ grep "Joe Germuska" people >> clues.txt
+$ grep "Jeremy Bowers" people >> clues.txt
+$ grep "Jacqui Maher" people >> clues.txt
+$ grep -r "Joe Germuska" memberships/* >> clues.txt
+$ grep -r "Jeremy Bowers" memberships/* >> clues.txt
+
+2. The name of the killer.
+
+>>> The killer is Jeremy Bowers <<<
+
+
+
+
+
+
+
+- Commit your solution file
+- Push your changes to your forked repo
+- Create a pull request to submit your deliverable
